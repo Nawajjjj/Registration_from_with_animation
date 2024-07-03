@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+
+
+#id1, #id2, #id3,#id4 ,#id5, #id6 {
+    height: 100px; 
+
+    width: 100px;
+    border: 3px solid black;
+   padding: 10px 10px 10px 10px;
+   margin: 10px 10px 10px 10px;
+}
+
+#id1 {
+    background-color: rgb(114, 239, 176);
+transition: 4s ease;
+}
+#id1:hover{
+    transform: rotate(360deg);
+}
+
+#id2 {
+    background-color: rgb(116, 116, 176);
+    transition: 4s ease;
+}
+#id2:hover{
+    transform: rotate(360deg);
+}
+
+#id3 {
+    background-color:rgb(118, 81, 81);
+    transition: 4s ease;
+}
+#id3:hover{
+    transform: rotate(360deg);
+}
+
+#id4{
+    background-color: rgb(76, 108, 108);
+    transition: 4s ease;
+}
+#id4:hover{
+    transform: rotate(360deg);
+}
+#id5{
+    background-color: cornflowerblue;
+    transition: 4s ease;
+}
+#id5:hover{
+    transform: rotate(360deg);
+}
+#id6{
+    background-color: rgb(246, 215, 137);
+    transition: 4s ease;
+}
+#id6:hover{
+    transform: rotate(360deg);
+}
+#outer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    width: 550px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#reg {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 8px;
+}
+#agedone{
+    background-color: rgb(205, 190, 190);
+}
+
+#button1{
+    background-color: beige;
+}
+#lastbutton{
+    background-color: blanchedalmond;
+}
+
+#button1:hover,#agedone:hover,
+#lastbutton:hover {
+    transform: scale(1.9);
+}
+#agedone:hover{
+    background-color: black;
+    color: white;
+}
+
+#button1:hover {
+    background-color: rgb(1, 1, 14);
+    color: white;
+}
+
+#lastbutton:hover {
+    background-color: rgb(11, 5, 2);
+    color: rgb(253, 252, 252);
+}
+
+form {
+    margin-top: 20px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="animestyle.css">
+    
+</head>
+<body>
+  <div id="id1"></div>
+  <div id="id2"></div>
+  <div id="id3"></div>
+  
+    <div id="outer">
+        <div id="reg">
+            <center>
+                <h1>Registration form</h1>
+            </center>
+            <p>This is a simple registration form just to know how much I'm capable of doing a project. This is just a sample form and I will get some basic information about you guys &#128513;</p>
+            <form id="information">
+                <label for="user-name">User name</label>
+                <input type="text" id="user-name" placeholder="user name">
+                <br><br>
+                <label for="password"> Password</label>
+                <input type="password" id="password" placeholder="password">
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="email">
+                <br><br>
+                <label for="phone-number">Phone no.</label>
+                <input type="tel" id="phone-number" placeholder="phone number">
+                <br><br>
+                <center><button id="button1">Submit</button></center>
+                <br><br>
+                <label for="location">Select your location:</label>
+                <select id="location" name="location">
+                    <option value="uttarpradesh">Uttar Pradesh</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Jammu">Jammu</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                </select>
+                <br><br>
+                <label id="realage">Please select your age!</label><br>
+                <input type="radio" id="age1" name="age" value="0-20">
+                <label for="age1">0-20</label><br>
+                <input type="radio" id="age2" name="age" value="20-30">
+                <label for="age2">20-30</label><br>
+                <input type="radio" id="age3" name="age" value="30-40">
+                <label for="age3">30-40</label><br>
+                <input type="radio" id="age4" name="age" value="40-50">
+                <label for="age4">40-50</label><br>
+                <input type="radio" id="age5" name="age" value="50+">
+                <label for="age5">50+</label><br>
+               <center> <button id="agedone">ok!</button><br><br></center>
+                <label id="Gender">Select your gender</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <label for="subject">Select your favorite subject:</label><br><br>
+                <input type="checkbox" name="subject" value="HTML">HTML<br>
+                <input type="checkbox" name="subject" value="JS">JS<br>
+                <input type="checkbox" name="subject" value="CSS">CSS<br>
+                <input type="checkbox" name="subject" value="Java">Java<br>
+                <input type="checkbox" name="subject" value="React">React<br>
+                <input type="checkbox" name="subject" value="MongoDB">MongoDB<br>
+                <input type="checkbox" name="subject" value="Git">Git<br>
+            </form>
+            <br><br>
+            <center>
+                <button id="lastbutton" onclick="myFunction()">Done</button>
+            </center>
+            <script>
+                function myFunction() {
+                    alert("Thank you for registering!!! You are done here, please return to the main menu.");
+                }
+            </script>
+        </div>
+        <footer>Follow me on ig<a href="https://www.instagram.com/shaikh_nawazzz/?next=%2F">Shaikh_nawazzz</a>
+         <br> &#174; by <b>Nawaj shaikh</b></footer>
+    </div>
+    <div id="id4"></div>
+    <div id="id5"></div>
+    <div id="id6"></div>
+</body>
+</html>
